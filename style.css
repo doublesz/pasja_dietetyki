@@ -1,0 +1,143 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lora', serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+header {
+    width: 100%;
+    height: 80px;
+    background-color: rgb(88, 97, 112);
+}
+
+.logo {
+    float: left;
+    margin-top: 15px;
+}
+
+.menu {
+    float: right;
+}
+.clear {
+    clear: both;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+ul li {
+    display: inline-block;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    font-size: 18px;
+    text-align: center;
+    display: inline-block;
+    line-height: 80px;
+    padding: 0 10px;
+}
+
+ul li a:hover {
+    background-color: #919db7;
+    color: #FFFFFF;
+}
+
+.hero {
+    width: 100%;
+    height: 100vh;
+    background-image: url(https://images.unsplash.com/photo-1496116218417-1a781b1c416c?ixlib=rb-0.3.5&s=aa5f954f8c3de6f8427e6f8ad35c0085&auto=format&fit=crop&w=1350&q=80);
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    text-align: center;
+}
+
+.hero-slogan {
+    margin-left: 38vh;
+    margin-top: 20vh;
+    background: rgba(255,255,255, 0.5);
+    max-width: 700px;
+}
+
+
+.hero-main-text {
+    font-style: italic;
+    font-size: 55px;
+    margin: 0;
+    line-height: 20vh;
+    color: rgb(54, 103, 112);
+}
+
+.hero-text {
+    font-size: 40px;
+    padding: 20px;
+    margin: 0;
+    color: #191E2A;
+}
+
+.hero-button {
+    font-size: 20px;
+    background-color: rgb(84, 95, 116);
+    color: #FFFFFF;
+    text-align: center;
+    border: none;
+    padding: 10px 15px;
+    margin: 10px auto;
+    cursor: pointer;
+}
+
+.hero-button:hover {
+    opacity: 0.6;
+    background-color: white;
+    color: #43485a;
+}
+
+.gallery {
+    text-align: center;
+    background-color: teal;
+    padding-bottom: 50px;
+}
+
+.gallery-text {
+    color: ivory;
+    padding: 50px;
+    margin: 0;
+    font-size: 40px;
+}
+
+.gallery-image img {
+    object-fit: cover;
+    float: left;
+    width: 25%;
+    max-height: 150px;
+}
+
+.gallery-image img:hover {
+    opacity: 0.8;
+    cursor:pointer;
+}
+
+footer {
+    background-color: #919db7;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+    padding: 20px;
+}
